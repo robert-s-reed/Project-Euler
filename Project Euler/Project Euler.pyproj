@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>3eac25d0-14fc-43ca-aac0-4f0546f9a57b</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>002 Even Fibonacci numbers.py</StartupFile>
+    <StartupFile>p002.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,9 +21,9 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="001 Multiples of 3 and 5.py" />
-    <Compile Include="002 Even Fibonacci numbers.py" />
-    <Compile Include="003 Largest prime factor.py">
+    <Compile Include="p001.py" />
+    <Compile Include="p002.py" />
+    <Compile Include="p003.py">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
