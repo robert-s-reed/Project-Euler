@@ -2,7 +2,7 @@
 
 import time
 
-def foo():
+def Answer():
     for firstHalf in range(998, 0, -1):
         firstHalfString = str(firstHalf)
         palindrome = int(firstHalfString + firstHalfString[::-1])
@@ -10,8 +10,7 @@ def foo():
             if palindrome % x == 0:
                 y = int(palindrome / x)
                 if len(str(y)) == 3:
-                    print("Answer = " + str(palindrome) + " (" + str(x) + " * " + str(y) + ") in {:.3f}".format(time.time() - startTime))
-                    return
+                    return palindrome
 
 startTime = time.time()
-foo()
+print("Answer = " + str(Answer()) + " (" + str(x) + " * " + str(y) + ") in {:.3f}".format(time.time() - startTime))
