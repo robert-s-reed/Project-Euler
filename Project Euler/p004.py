@@ -13,4 +13,4 @@ def Answer():
                     return palindrome
 
 startTime = time.time()
-print("Answer = " + str(Answer()) + " (" + str(x) + " * " + str(y) + ") in {:.3f}".format(time.time() - startTime))
+print("Answer = " + str(Answer()) + " (" + str(x) + " * " + str(y) + ") in {:.3f}".format(time.time() - startTime) + "s")

@@ -14,5 +14,5 @@ for i in range(1, int(600851475143 / 2) + 2):
                 break
         if isPrime == 1:
             print (factor)
-            print("Answer = " + str(factor) + " in {:.3f}".format(time.time() - startTime))
+            print("Answer = " + str(factor) + " in {:.3f}".format(time.time() - startTime + "s"))
             break

@@ -12,4 +12,4 @@ while current <= 4000000:
 	current = new
 	if current % 2 == 0:
 		sum += current
-print("Answer = " + str(sum) + " in {:.3f}".format(time.time() - startTime))
+print("Answer = " + str(sum) + " in {:.3f}".format(time.time() - startTime) + "s")
