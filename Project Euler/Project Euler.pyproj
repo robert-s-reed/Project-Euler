@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>3eac25d0-14fc-43ca-aac0-4f0546f9a57b</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>p686.py</StartupFile>
+    <StartupFile>p099.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -27,6 +27,9 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="p004.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="p099.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="p686.py">
