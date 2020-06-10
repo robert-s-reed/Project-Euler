@@ -1,6 +1,7 @@
 # Project 99: Largest exponential
 
 import time
+import math
 
 startTime = time.time()
 file = open("Resources/p099_base_exp.txt", "r")
@@ -11,7 +12,7 @@ maxLineNum = 1
 for line in file:
     print("Calculating line " + str(lineNum) + "...")
     lineElements = line.split(",")
-    result = int(lineElements[0]) ** int(lineElements[1])
+    result = math.log(int(lineElements[0])) * int(lineElements[1])
     if result > maxVal:
         maxLineNum = lineNum
         maxVal = result
