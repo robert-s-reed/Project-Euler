@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>3eac25d0-14fc-43ca-aac0-4f0546f9a57b</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>p005.py</StartupFile>
+    <StartupFile>p007.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -22,6 +22,12 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="p005.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="p006.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="p007.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="p112.py">
