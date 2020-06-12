@@ -9,7 +9,7 @@ interval = maxVal * (maxVal - 1)
 x = interval
 while True:
     isAnswer = 1
-    for y in range(maxVal, 0, -1):
+    for y in range(maxVal, 1, -1):
         if x % y != 0:
             isAnswer = 0
             break
