@@ -16,6 +16,8 @@ for i in range(len(number)):
         product = digits[i]
         for j in range(i - 1, i - adjacentDigits, -1):
             product *= digits[j]
+            if product == 0:
+                break
         if product > maxProduct:
             maxProduct = product
 file.close()
