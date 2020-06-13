@@ -32,6 +32,6 @@ while True:
     x += 1
     elapsedTime = time.time() - lastPrintTime
     if elapsedTime >= printInterval:
-        print("x = " + str(x) + ", proportion = " + str(proportion) + " in {:.3f}".format(elapsedTime) + "s...")
+        print("x = " + str(x) + ", proportion = " + str(proportion) + " in {:.3f}".format(time.time() - startTime) + "s...")
         lastPrintTime = time.time()
 print("Answer = " + str(x) + " in {:.3f}".format(time.time() - startTime) + "s")
